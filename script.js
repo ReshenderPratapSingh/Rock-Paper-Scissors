@@ -99,8 +99,8 @@ function playGame(playerMove, score) {
     .innerHTML = 
     `<p class="js-moves moves">
         you
-        <img src="${playerMove}-emoji.png" class="emoji-icon" alt="">
-        <img src="${computerMove}-emoji.png" class="emoji-icon" alt="">
+        <img src="images/${playerMove}-emoji.png" class="emoji-icon" alt="">
+        <img src="images/${computerMove}-emoji.png" class="emoji-icon" alt="">
         computer
     </p>`
     updateScoreElement();
